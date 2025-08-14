@@ -1,0 +1,38 @@
+{
+    "name": "hohayo/laravel-env-helpers",
+    "description": "Extra artisan commands for stechstudio/laravel-env-security: env:edit & env:get",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^12.24",
+        "stechstudio/laravel-env-security": "^2.4"
+    },
+    "require-dev": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hohayo\\LaravelEnvHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kyle Chuang",
+            "email": "hohayo@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hohayo\\LaravelEnvHelpers\\EnvHelpersServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+       {
+           "type": "path",
+           "url": "packages/hohayo/laravel-env-helpers"
+       }
+   ]
+}
