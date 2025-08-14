@@ -1,10 +1,10 @@
 <?php
 
-namespace hohayo\LaravelEnvHelpers;
+namespace Hohayo\LaravelEnvHelpers;
 
 use Illuminate\Support\ServiceProvider;
-use hohayo\LaravelEnvHelpers\Commands\EnvEditCommand;
-use hohayo\LaravelEnvHelpers\Commands\EnvGetCommand;
+use Hohayo\LaravelEnvHelpers\Commands\EnvEditCommand;
+use Hohayo\LaravelEnvHelpers\Commands\EnvGetCommand;
 
 class EnvHelpersServiceProvider extends ServiceProvider
 {

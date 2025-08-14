@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\EnvHelpers\Commands;
+namespace Hohayo\LaravelEnvHelpers\Commands;
 
 use Illuminate\Console\Command;
 use STS\EnvSecurity\EnvSecurityService;
